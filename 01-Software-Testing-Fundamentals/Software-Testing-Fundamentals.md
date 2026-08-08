@@ -1,0 +1,1190 @@
+# Software Testing - Complete Questions & Answers
+## 1. What is Software Testing? Why it is important?
+**Answer:**  
+Software Testing is the process of evaluating a software application to detect defects and ensure it meets requirements. Software testing is important because it ensures software quality, prevents defects early, enhances security and performance, improves user experience.
+---
+## 2. What is Quality Assurance?
+**Answer:**  
+Quality Assurance is a process of making sure the software is developed correctly and preventing defects by following good processes throughout development.
+---
+## 3. What is Quality Control?
+**Answer:**  
+Quality Control is the process of checking actual software to identify defects and ensure it meets the required quality standards.
+---
+## 4. What is the difference between QA and QC?
+**Answer:**  
+QA is focused on preventing defects by improving process where as QC is focused on finding defects in the actual product.
+---
+## 5. What is Verification?
+**Answer:**  
+Verification is verifying any software documentation that is being produced like software requirement specification, design documents, user stories. It is known as Static testing.
+---
+## 6. What is Validation?
+**Answer:**  
+Validation is when you launch the application and you verify that the functionalities that are being build are actually inline with requirements. It is known as Dynamic testing.
+---
+## 7. What is SDLC?
+**Answer:**  
+SDLC stands for Software Development Life Cycle. It is a structured process followed to develop and maintain software. The main phases are Requirement Analysis → Design → Development → Testing → Deployment → Maintenance
+---
+## 8. What is STLC?
+**Answer:**  
+STLC stands for Software Testing Life Cycle. It defines the activities performed during the testing process.
+Requirement Analysis: Testers analyze what features need testing
+Test Planning: A strategy is created, decided on what needs to be tested and by whom.
+Testcase development: Testers write detailed testcases
+Environment Setup: Setting up testing environment.
+Test Execution: Running testcases, reporting bugs, verifying fixes
+Test Closure: Documenting everything for closure.
+---
+## 9. What is the difference between SDLC and STLC?
+**Answer:**  
+SDLC covers the complete software development lifecycle, whereas STLC specifically focuses on activities related to software testing.
+---
+## 10. What is the role of QA in SDLC?
+**Answer:**  
+QA plays an important role throughout SDLC. QA reviews requirements, identifies risks, prepares testcases, executes tests, reports, validates defects, perform regression testing and support release activities to ensure software meets required quality.
+---
+## 11. What are the levels of testing?
+**Answer:**  
+There are 4 main levels of testing are:
+1. Unit Testing – Tests individual components.
+2. Integration Testing – Tests interaction between components.
+3. System Testing – Tests the complete application.
+4. Acceptance Testing – Verifies whether the system meets business and user requirements.
+---
+## 12. What are the different types of software testing?
+**Answer:**  
+Software testing is broadly categorized into Functional and Nonfunctional testing
+Functional Testing is a type of black box technique that verifies whether the system behaves as expected according to the requirements. It tests specific actions and outputs to confirm that functionalities work correctly.
+It includes
+- Functional Testing
+- Integration Testing
+- System Testing
+- Regression Testing
+- Smoke Testing
+- Sanity Testing
+- UAT
+Non functional testing checks qualities such as performance, security, usability, accessability and compatability.
+It includes
+- Performance Testing
+- Security Testing
+- Usability Testing
+- Accessibility Testing
+- Compatibility Testing
+---
+## 13. What is Manual Testing?
+**Answer:**  
+Manual Testing is the process in which testcases are executed manually by a tester without using automation tools. It is important because it ensures software quality, prevents defects early, enhances security and performance, improves user experience. 
+---
+## 14. What is Automation Testing?
+**Answer:**  
+Performing testing with the help of tools is called Automation testing.
+---
+## 15. What is Black Box Testing?
+**Answer:**  
+Black box testing is about testing what software does i.e., the tester focuses on testing the functionality of the software without any knowledge of its internal code. The goal is to verify that software behaves as expected based on the requirements and user inputs.
+---
+## 16. What is White Box Testing?
+**Answer:**  
+White-box testing is about testing how software does it i.e., the tester has full access to the internal workings of the application including code, algorithm, logic. The purpose is to ensure that all operations are working as intended.
+---
+## 21. What is Grey Box Testing?
+**Answer:**  
+Grey-box testing combines aspects of black-box and white-box testing. The tester has partial knowledge of the application's internal architecture or implementation.
+
+---
+
+## 22. Black Box vs White Box vs Grey Box Testing?
+
+**Answer:**
+
+| Testing Type | Internal Knowledge |
+|---|---|
+| Black Box | No knowledge |
+| White Box | Full knowledge |
+| Grey Box | Partial knowledge |
+
+---
+
+## 23. What is Static Testing?
+
+**Answer:**  
+Static Testing is performed without executing the software. It involves reviewing and analyzing work products to identify defects early.
+
+Examples include requirement reviews, walkthroughs, inspections, and document reviews.
+
+---
+
+## 24. What is Dynamic Testing?
+
+**Answer:**  
+Dynamic Testing involves executing the software and evaluating its actual behavior against expected results.
+
+---
+
+## 25. Static Testing vs Dynamic Testing?
+
+**Answer:**  
+Static Testing is performed without executing the software, while Dynamic Testing involves executing the software and evaluating its behavior.
+
+---
+
+## 26. What is Functional Testing?
+
+**Answer:**  
+Functional Testing verifies whether the application's features and functions work according to specified requirements.
+
+---
+
+## 27. What is Non-Functional Testing?
+
+**Answer:**  
+Non-Functional Testing evaluates characteristics such as performance, usability, security, reliability, scalability, accessibility, and compatibility.
+
+---
+
+## 28. Functional vs Non-Functional Testing?
+
+**Answer:**  
+Functional Testing verifies what the system does, while Non-Functional Testing verifies how well the system performs.
+
+---
+
+## 29. What is Positive Testing?
+
+**Answer:**  
+Positive Testing verifies that the application works correctly when valid inputs and expected actions are provided.
+
+---
+
+## 30. What is Negative Testing?
+
+**Answer:**  
+Negative Testing verifies how the application behaves when invalid, unexpected, or incorrect inputs are provided.
+
+---
+
+## 31. Positive vs Negative Testing?
+
+**Answer:**  
+Positive Testing uses valid and expected inputs, while Negative Testing uses invalid, unexpected, or incorrect inputs to verify how the application handles them.
+
+---
+
+## 32. What is End-to-End Testing?
+
+**Answer:**  
+End-to-End Testing validates a complete business workflow from beginning to end across all relevant components and integrations.
+
+---
+
+## 33. What is Integration Testing?
+
+**Answer:**  
+Integration Testing verifies whether two or more modules, components, services, or systems communicate and work correctly together.
+
+---
+
+## 34. What is System Testing?
+
+**Answer:**  
+System Testing validates the complete integrated application against functional and business requirements.
+
+---
+
+## 35. What is UAT?
+
+**Answer:**  
+UAT stands for User Acceptance Testing. It verifies whether the application satisfies business requirements and is acceptable to the intended users or business stakeholders.
+
+---
+
+## 36. What is Exploratory Testing?
+
+**Answer:**  
+Exploratory Testing is a testing approach where test design, execution, and learning occur simultaneously. Testers explore the application based on requirements, experience, observations, and risks rather than relying only on predefined test cases.
+
+---
+
+## 37. What is Ad-hoc Testing?
+
+**Answer:**  
+Ad-hoc Testing is informal testing performed without predefined detailed test cases, usually to quickly identify unexpected defects.
+
+---
+
+## 38. What is Risk-Based Testing?
+
+**Answer:**  
+Risk-Based Testing is an approach where testing is prioritized based on the probability and business impact of potential failures.
+
+---
+
+## 39. What is Test Coverage?
+
+**Answer:**  
+Test Coverage measures how adequately the application or requirements are covered by the defined testing activities.
+
+---
+
+## 40. What is a Test Plan?
+
+**Answer:**  
+A Test Plan is a document that defines the testing scope, objectives, approach, resources, schedule, environment, risks, dependencies, and entry and exit criteria.
+
+---
+
+## 41. What are Entry Criteria?
+
+**Answer:**  
+Entry Criteria are the conditions that must be satisfied before testing can begin.
+
+Examples include:
+
+- Requirements are available.
+- Build is available.
+- Test environment is ready.
+- Test data is available.
+
+---
+
+## 42. What are Exit Criteria?
+
+**Answer:**  
+Exit Criteria define the conditions that must be satisfied before testing can be considered complete.
+
+Examples include:
+
+- Planned test cases executed.
+- Critical defects resolved or accepted.
+- Required regression completed.
+- Required test coverage achieved.
+- Test summary completed.
+
+---
+
+## 43. What is a Test Environment?
+
+**Answer:**  
+A Test Environment is the combination of hardware, software, applications, databases, network configurations, tools, and test data required to execute tests.
+
+---
+
+## 44. What is Test Data?
+
+**Answer:**  
+Test Data is the data used to execute test cases and verify application behavior under different conditions.
+
+---
+
+## 45. What is a Defect?
+
+**Answer:**  
+A Defect is a flaw or deviation in the software that causes the actual behavior to differ from the expected behavior or specified requirement.
+
+---
+
+## 46. What is an Error?
+
+**Answer:**  
+An Error is a human mistake made during activities such as requirement analysis, design, coding, or configuration that may lead to a defect.
+
+---
+
+## 47. What is a Failure?
+
+**Answer:**  
+A Failure occurs when the software executes and produces an incorrect or unexpected result due to a defect.
+
+---
+
+## 48. Explain Error, Defect, and Failure.
+
+**Answer:**  
+A human Error can introduce a Defect into the software, and when that defect is executed, it can result in a Failure.
+
+**Error → Defect → Failure**
+
+---
+
+## 49. When should testing start?
+
+**Answer:**  
+Testing should start as early as possible in the SDLC, ideally during the requirement phase. Early testing helps identify ambiguous requirements, missing acceptance criteria, and potential risks before they become expensive to fix.
+
+---
+
+## 50. What is Shift-Left Testing?
+
+**Answer:**  
+Shift-Left Testing means moving testing and quality activities earlier in the software development lifecycle so that defects and risks can be identified earlier.
+
+---
+
+# Testing Process and Planning
+
+## 51. What is a Test Scenario?
+
+**Answer:**  
+A Test Scenario is a high-level condition or functionality that needs to be tested.
+
+---
+
+## 52. What is a Test Case?
+
+**Answer:**  
+A Test Case is a documented set of preconditions, test steps, test data, expected results, and other details used to verify a specific functionality.
+
+---
+
+## 53. Test Scenario vs Test Case?
+
+**Answer:**  
+A Test Scenario is a high-level description of what needs to be tested, while a Test Case provides detailed steps and expected results for testing that scenario.
+
+---
+
+## 54. What are the components of a Test Case?
+
+**Answer:**  
+A typical Test Case contains:
+
+- Test Case ID
+- Test Case Title
+- Preconditions
+- Test Data
+- Test Steps
+- Expected Result
+- Actual Result
+- Status
+- Comments or Evidence
+
+---
+
+## 55. What is a Test Suite?
+
+**Answer:**  
+A Test Suite is a collection of related test cases grouped together for execution.
+
+---
+
+## 56. What is a Test Script?
+
+**Answer:**  
+A Test Script is a sequence of instructions or steps used to execute a test, either manually or through automation.
+
+---
+
+## 57. What is Test Data?
+
+**Answer:**  
+Test Data is the input data required to execute test cases and verify different application behaviors.
+
+---
+
+## 58. What is a Requirement Traceability Matrix?
+
+**Answer:**  
+A Requirement Traceability Matrix, or RTM, is a document that maps requirements to test scenarios and test cases to ensure that requirements are adequately covered by testing.
+
+---
+
+## 59. What is Test Execution?
+
+**Answer:**  
+Test Execution is the process of running test cases, comparing actual results with expected results, and recording the test status.
+
+---
+
+## 60. What are the possible Test Case statuses?
+
+**Answer:**  
+Common Test Case statuses include:
+
+- Pass
+- Fail
+- Blocked
+- Not Run
+- Not Applicable
+
+---
+
+## 61. What is a Test Condition?
+
+**Answer:**  
+A Test Condition is a testable aspect, requirement, or behavior of the application that needs to be verified.
+
+---
+
+## 62. What is a Test Objective?
+
+**Answer:**  
+A Test Objective defines what the testing activity is intended to verify or achieve.
+
+---
+
+## 63. What is a Test Strategy?
+
+**Answer:**  
+A Test Strategy is a high-level document or approach that defines how testing will be performed, including testing objectives, levels, types, resources, tools, risks, and approach.
+
+---
+
+## 64. Test Plan vs Test Strategy?
+
+**Answer:**  
+A Test Strategy defines the overall testing approach, while a Test Plan defines the specific testing activities, scope, schedule, resources, responsibilities, and execution details for a project.
+
+---
+
+# Defect Management
+
+## 65. What is Defect Life Cycle?
+
+**Answer:**  
+The Defect Life Cycle describes the different states a defect passes through from identification to closure.
+
+A typical flow is:
+
+New → Assigned → Open → Fixed → Retest → Verified → Closed
+
+A defect may also be Reopened if the issue still exists after the fix.
+
+---
+
+## 66. What is Severity?
+
+**Answer:**  
+Severity indicates the technical impact or seriousness of a defect on the application.
+
+---
+
+## 67. What is Priority?
+
+**Answer:**  
+Priority indicates how urgently a defect should be fixed based on business importance.
+
+---
+
+## 68. Severity vs Priority?
+
+**Answer:**
+
+| Severity | Priority |
+|---|---|
+| Indicates technical/business impact of the defect | Indicates urgency of fixing the defect |
+| Usually determined based on impact | Usually influenced by business needs |
+| Focuses on seriousness | Focuses on fixing order |
+
+---
+
+## 69. What is a Critical Defect?
+
+**Answer:**  
+A Critical Defect is a defect that causes severe impact, such as application failure, data loss, security issues, or inability to perform a critical business function.
+
+---
+
+## 70. What is a Blocker Defect?
+
+**Answer:**  
+A Blocker Defect prevents further testing or prevents users from performing a critical function.
+
+---
+
+## 71. What is a Defect Report?
+
+**Answer:**  
+A Defect Report is a documented record of an identified issue containing information such as title, description, steps to reproduce, expected result, actual result, severity, priority, environment, and evidence.
+
+---
+
+## 72. What should a good defect report contain?
+
+**Answer:**  
+A good defect report should contain:
+
+- Defect ID
+- Clear title
+- Description
+- Preconditions
+- Steps to reproduce
+- Test data
+- Expected result
+- Actual result
+- Severity
+- Priority
+- Environment
+- Screenshots or logs
+- Reproducibility
+
+---
+
+## 73. What is Retesting?
+
+**Answer:**  
+Retesting is performed to verify that a specific defect has been fixed successfully.
+
+---
+
+## 74. What is Regression Testing?
+
+**Answer:**  
+Regression Testing verifies that existing functionality continues to work after changes, enhancements, or defect fixes are made to the application.
+
+---
+
+## 75. Retesting vs Regression Testing?
+
+**Answer:**  
+Retesting verifies whether a specific defect has been fixed, while Regression Testing verifies that existing functionality has not been negatively affected by recent changes.
+
+---
+
+## 76. What is Defect Leakage?
+
+**Answer:**  
+Defect Leakage occurs when a defect is missed during testing and is discovered after the software is released to a later environment or production.
+
+---
+
+## 77. What is Defect Rejection?
+
+**Answer:**  
+Defect Rejection occurs when a reported defect is determined to be invalid, not reproducible, expected behavior, a duplicate, or otherwise not a valid defect.
+
+---
+
+## 78. What is a Duplicate Defect?
+
+**Answer:**  
+A Duplicate Defect is a defect that has already been reported in another defect record.
+
+---
+
+## 79. What is a Deferred Defect?
+
+**Answer:**  
+A Deferred Defect is a valid defect whose fix is intentionally postponed to a future release based on priority, risk, resources, or business decisions.
+
+---
+
+# Common Testing Types
+
+## 80. What is Smoke Testing?
+
+**Answer:**  
+Smoke Testing is a high-level test performed on a new build to verify that the critical functionalities are working and the build is stable enough for detailed testing.
+
+---
+
+## 81. What is Sanity Testing?
+
+**Answer:**  
+Sanity Testing is focused testing performed after minor changes or fixes to verify that the affected functionality and related areas are working correctly.
+
+---
+
+## 82. Smoke Testing vs Sanity Testing?
+
+**Answer:**  
+Smoke Testing checks the overall stability of a build at a high level, while Sanity Testing focuses on specific functionality or related areas after changes or fixes.
+
+---
+
+## 83. What is Regression Testing?
+
+**Answer:**  
+Regression Testing verifies that existing functionality has not been impacted by changes made to the application.
+
+---
+
+## 84. What is Retesting?
+
+**Answer:**  
+Retesting verifies that a previously failed test case or reported defect now passes after the issue has been fixed.
+
+---
+
+## 85. What is Compatibility Testing?
+
+**Answer:**  
+Compatibility Testing verifies that the application works correctly across different browsers, operating systems, devices, screen sizes, networks, and other supported environments.
+
+---
+
+## 86. What is Cross-Browser Testing?
+
+**Answer:**  
+Cross-Browser Testing verifies that a web application behaves correctly across supported browsers such as Chrome, Edge, Firefox, and Safari.
+
+---
+
+## 87. What is Usability Testing?
+
+**Answer:**  
+Usability Testing evaluates how easy, understandable, efficient, and user-friendly the application is for its intended users.
+
+---
+
+## 88. What is Accessibility Testing?
+
+**Answer:**  
+Accessibility Testing verifies that an application can be effectively used by people with different abilities and complies with applicable accessibility requirements.
+
+---
+
+## 89. What is Performance Testing?
+
+**Answer:**  
+Performance Testing evaluates how an application behaves in terms of response time, stability, scalability, and resource usage under expected or varying workloads.
+
+---
+
+## 90. What is Security Testing?
+
+**Answer:**  
+Security Testing evaluates whether the application protects data and functionality against unauthorized access, vulnerabilities, and other security threats.
+
+---
+
+## 91. What is Usability Testing?
+
+**Answer:**  
+Usability Testing verifies whether users can understand and use the application easily, efficiently, and effectively.
+
+---
+
+## 92. What is Compatibility Testing?
+
+**Answer:**  
+Compatibility Testing verifies that the application works correctly across supported hardware, software, browsers, operating systems, devices, and network environments.
+
+---
+
+# Test Case Design Techniques
+
+## 93. What is Boundary Value Analysis?
+
+**Answer:**  
+Boundary Value Analysis is a test design technique that focuses on values at and around the boundaries of valid input ranges because defects frequently occur near boundaries.
+
+---
+
+## 94. What is Equivalence Partitioning?
+
+**Answer:**  
+Equivalence Partitioning divides input data into groups or partitions where the system is expected to behave similarly, allowing representative values to be tested from each partition.
+
+---
+
+## 95. What is Decision Table Testing?
+
+**Answer:**  
+Decision Table Testing is a technique used to test combinations of conditions and corresponding actions, especially when business rules involve multiple conditions.
+
+---
+
+## 96. What is State Transition Testing?
+
+**Answer:**  
+State Transition Testing verifies how an application behaves when it moves from one state to another based on specific events or conditions.
+
+---
+
+## 97. What is Use Case Testing?
+
+**Answer:**  
+Use Case Testing derives test scenarios from user interactions and business workflows to verify that complete user operations work as expected.
+
+---
+
+## 98. What is Error Guessing?
+
+**Answer:**  
+Error Guessing is a testing technique where testers use their experience and knowledge of common failure areas to identify likely defects and design tests for them.
+
+---
+
+# Agile and Scrum
+
+## 99. What is Agile?
+
+**Answer:**  
+Agile is an iterative and incremental software development approach where software is developed and delivered in small increments with continuous feedback and collaboration.
+
+---
+
+## 100. What is Scrum?
+
+**Answer:**  
+Scrum is an Agile framework that organizes development work into time-boxed iterations called Sprints.
+
+---
+
+## 101. What is a Sprint?
+
+**Answer:**  
+A Sprint is a fixed time-box during which a Scrum team develops and delivers a usable increment of the product.
+
+---
+
+## 102. What is a Product Backlog?
+
+**Answer:**  
+A Product Backlog is a prioritized list of features, enhancements, defects, and other work items required for the product.
+
+---
+
+## 103. What is a Sprint Backlog?
+
+**Answer:**  
+A Sprint Backlog is the set of backlog items selected for a Sprint along with the work required to complete them.
+
+---
+
+## 104. What is a User Story?
+
+**Answer:**  
+A User Story is a short description of a feature or requirement written from the perspective of the user or customer.
+
+---
+
+## 105. What are Acceptance Criteria?
+
+**Answer:**  
+Acceptance Criteria are predefined conditions that a user story or feature must satisfy to be considered complete and acceptable.
+
+---
+
+## 106. What is Definition of Done?
+
+**Answer:**  
+Definition of Done is a shared set of criteria that must be satisfied for a user story or work item to be considered completed.
+
+---
+
+## 107. What is a Daily Scrum?
+
+**Answer:**  
+Daily Scrum is a short daily meeting where the Scrum team discusses progress, plans, and blockers.
+
+---
+
+## 108. What is Sprint Planning?
+
+**Answer:**  
+Sprint Planning is a meeting where the Scrum team determines the work to be completed during the upcoming Sprint and creates the Sprint plan.
+
+---
+
+## 109. What is Sprint Review?
+
+**Answer:**  
+Sprint Review is a meeting where the team demonstrates the completed work to stakeholders and gathers feedback.
+
+---
+
+## 110. What is Sprint Retrospective?
+
+**Answer:**  
+Sprint Retrospective is a meeting where the team discusses what went well, what could be improved, and what actions should be taken in the next Sprint.
+
+---
+
+## 111. What is the role of QA in Agile?
+
+**Answer:**  
+QA participates throughout the Sprint by reviewing requirements and acceptance criteria, identifying test scenarios, preparing test cases and data, executing tests, reporting defects, validating fixes, performing regression testing, and supporting release activities.
+
+---
+
+# Web Application Testing
+
+## 112. How do you test a Login Page?
+
+**Answer:**  
+A Login Page can be tested using valid and invalid credentials, empty fields, boundary values, field validations, password masking, error messages, account lockout behavior, remember-me functionality, password reset, browser compatibility, and security-related scenarios.
+
+---
+
+## 113. How do you test a Registration Page?
+
+**Answer:**  
+A Registration Page can be tested by verifying valid registration, mandatory fields, field formats, duplicate users, password rules, boundary values, invalid inputs, confirmation messages, email verification, and error handling.
+
+---
+
+## 114. How do you test a Search Functionality?
+
+**Answer:**  
+Search functionality can be tested using valid keywords, invalid keywords, partial keywords, special characters, empty searches, case variations, filters, sorting, multiple results, no-result scenarios, response behavior, and pagination.
+
+---
+
+## 115. How do you test a Shopping Cart?
+
+**Answer:**  
+A Shopping Cart can be tested by adding, removing, and updating products, verifying quantities and prices, applying discounts, calculating taxes and totals, handling out-of-stock products, persisting cart data, and validating checkout behavior.
+
+---
+
+## 116. How do you test a Payment Page?
+
+**Answer:**  
+A Payment Page can be tested for valid and invalid payment details, supported payment methods, mandatory fields, transaction success and failure, timeout handling, duplicate transactions, cancellation, error messages, order status, and secure handling of payment information.
+
+---
+
+## 117. How do you test File Upload functionality?
+
+**Answer:**  
+File Upload functionality can be tested using valid and invalid file types, maximum and minimum file sizes, empty files, duplicate files, special characters in filenames, multiple files, upload cancellation, corrupted files, and appropriate error messages.
+
+---
+
+## 118. How do you test a Logout functionality?
+
+**Answer:**  
+Logout testing verifies that the user is successfully logged out, the session is invalidated, protected pages cannot be accessed using the browser back button, and the user is redirected appropriately.
+
+---
+
+# Real-Time Testing Concepts
+
+## 119. What will you do if a requirement is unclear?
+
+**Answer:**  
+I would discuss the requirement with the Business Analyst, Product Owner, or relevant stakeholder, clarify the expected behavior, document the clarification, and then create test scenarios and test cases based on the confirmed requirement.
+
+---
+
+## 120. What will you do if you find a critical defect just before release?
+
+**Answer:**  
+I would immediately report the defect with clear evidence, assess its severity and business impact, inform the appropriate stakeholders, and support the team in making a release decision based on the risk.
+
+---
+
+## 121. What will you do if a developer says your defect is not valid?
+
+**Answer:**  
+I would reproduce the issue, verify the requirement or acceptance criteria, provide clear steps and evidence, and discuss the behavior with the developer and relevant stakeholders to determine whether it is a valid defect.
+
+---
+
+## 122. What will you do if a defect cannot be reproduced?
+
+**Answer:**  
+I would collect additional information such as environment, test data, logs, screenshots, videos, browser details, and exact reproduction steps, then attempt to reproduce it under the same conditions.
+
+---
+
+## 123. What will you do if there is not enough time for complete testing?
+
+**Answer:**  
+I would prioritize testing based on business risk and critical functionality, execute smoke and high-priority test cases first, perform focused regression, and communicate the remaining risks and testing limitations to stakeholders.
+
+---
+
+## 124. What will you do when a build is unstable?
+
+**Answer:**  
+I would perform smoke testing to identify whether the critical functionality is working. If the build is not stable enough for detailed testing, I would report the blocking issues and communicate that further testing cannot proceed effectively until the build is fixed.
+
+---
+
+## 125. What if the developer fixes one defect and another functionality breaks?
+
+**Answer:**  
+I would report the newly identified issue as a defect and perform appropriate regression testing around the changed functionality and related areas to identify the impact.
+
+---
+
+# Important Interview Questions
+
+## 126. When should testing stop?
+
+**Answer:**  
+Testing can stop when the defined exit criteria are satisfied, planned testing has been completed, critical risks are addressed or accepted, required coverage is achieved, and stakeholders agree that the software is ready for release.
+
+---
+
+## 127. What is Test Closure?
+
+**Answer:**  
+Test Closure is the final phase of testing where test results, defect status, test coverage, lessons learned, and other testing activities are reviewed and documented.
+
+---
+
+## 128. What is Test Summary Report?
+
+**Answer:**  
+A Test Summary Report provides an overall summary of testing activities, execution results, defect status, coverage, risks, and the final testing outcome.
+
+---
+
+## 129. What is Test Metrics?
+
+**Answer:**  
+Test Metrics are measurements used to evaluate testing progress, quality, effectiveness, and coverage.
+
+Examples include test case execution percentage, pass percentage, fail percentage, defect density, and defect leakage.
+
+---
+
+## 130. What is Defect Density?
+
+**Answer:**  
+Defect Density is a measurement of the number of confirmed defects identified in a software component relative to its size.
+
+---
+
+## 131. What is Defect Leakage?
+
+**Answer:**  
+Defect Leakage measures defects that escape the testing process and are discovered in later environments or production.
+
+---
+
+## 132. What is Risk?
+
+**Answer:**  
+Risk is the possibility of an event occurring that may negatively affect the software, project, business, schedule, cost, or quality.
+
+---
+
+## 133. What is a Risk vs Issue?
+
+**Answer:**  
+A Risk is a potential problem that may occur in the future, while an Issue is a problem that has already occurred and requires action.
+
+---
+
+## 134. What is a Blocker?
+
+**Answer:**  
+A Blocker is an issue that prevents testing or prevents a critical business activity from proceeding.
+
+---
+
+## 135. What is Build?
+
+**Answer:**  
+A Build is a deployable version of the software generated from the source code and provided to testers for testing.
+
+---
+
+## 136. What is Release?
+
+**Answer:**  
+A Release is a version of the software that is made available to users or customers after completing the required development and testing activities.
+
+---
+
+## 137. Build vs Release?
+
+**Answer:**  
+A Build is a version generated for testing or deployment, while a Release is a version approved and made available to users or customers.
+
+---
+
+## 138. What is Production Testing?
+
+**Answer:**  
+Production Testing is testing performed in or against the production environment to verify that the deployed application and critical business functionality are working correctly.
+
+---
+
+## 139. What is Sanity Testing after deployment?
+
+**Answer:**  
+Sanity Testing after deployment is a focused validation of critical functionality to ensure that the deployed application is working correctly before or while broader validation continues.
+
+---
+
+## 140. What is a Production Verification Test?
+
+**Answer:**  
+A Production Verification Test is a focused set of checks performed after deployment to confirm that critical application functionality and services are operating correctly in production.
+
+---
+
+# Quick Comparison Questions
+
+## 141. Smoke Testing vs Sanity Testing?
+
+**Answer:**  
+Smoke Testing checks the overall stability of a build, while Sanity Testing focuses on specific functionality after changes or fixes.
+
+---
+
+## 142. Retesting vs Regression Testing?
+
+**Answer:**  
+Retesting verifies a specific defect fix, while Regression Testing verifies that existing functionality has not been impacted by changes.
+
+---
+
+## 143. Severity vs Priority?
+
+**Answer:**  
+Severity indicates the impact of a defect, while Priority indicates the urgency with which the defect should be fixed.
+
+---
+
+## 144. Test Scenario vs Test Case?
+
+**Answer:**  
+A Test Scenario describes what needs to be tested at a high level, while a Test Case provides detailed steps, data, and expected results.
+
+---
+
+## 145. QA vs QC?
+
+**Answer:**  
+QA focuses on preventing defects by improving processes, while QC focuses on identifying defects in the product.
+
+---
+
+## 146. Verification vs Validation?
+
+**Answer:**  
+Verification checks work products without necessarily executing the software, while Validation evaluates the actual software through execution.
+
+---
+
+## 147. SDLC vs STLC?
+
+**Answer:**  
+SDLC covers the complete software development lifecycle, while STLC focuses specifically on software testing activities.
+
+---
+
+## 148. Functional vs Non-Functional Testing?
+
+**Answer:**  
+Functional Testing verifies what the system does, while Non-Functional Testing verifies how well the system performs.
+
+---
+
+## 149. Manual vs Automation Testing?
+
+**Answer:**  
+Manual Testing is performed manually by testers, while Automation Testing uses scripts and tools to execute predefined tests automatically.
+
+---
+
+## 150. Static vs Dynamic Testing?
+
+**Answer:**  
+Static Testing is performed without executing the software, while Dynamic Testing involves executing the software.
+
+---
+
+## 151. Positive vs Negative Testing?
+
+**Answer:**  
+Positive Testing verifies valid and expected inputs, while Negative Testing verifies how the application handles invalid or unexpected inputs.
+
+---
+
+## 152. Black Box vs White Box Testing?
+
+**Answer:**  
+Black Box Testing validates behavior without knowledge of internal implementation, while White Box Testing evaluates the internal code, logic, or structure.
+
+---
+
+# Final Important Questions to Prepare
+
+## 153. What is the difference between a defect, bug, error, and failure?
+
+**Answer:**  
+An Error is a human mistake that may introduce a Defect into the software. A Bug or Defect is an issue in the software, and a Failure occurs when the software executes and produces an incorrect or unexpected result.
+
+---
+
+## 154. What is Shift-Left Testing?
+
+**Answer:**  
+Shift-Left Testing means performing quality and testing activities earlier in the SDLC to identify defects and risks as early as possible.
+
+---
+
+## 155. What is Risk-Based Testing?
+
+**Answer:**  
+Risk-Based Testing prioritizes testing based on the probability and business impact of potential failures.
+
+---
+
+## 156. What is Exploratory Testing?
+
+**Answer:**  
+Exploratory Testing is an approach where test design, execution, and learning happen simultaneously while the tester explores the application based on requirements, experience, observations, and risks.
+
+---
+
+## 157. What is Ad-hoc Testing?
+
+**Answer:**  
+Ad-hoc Testing is informal testing performed without predefined detailed test cases, generally to quickly identify unexpected defects.
+
+---
+
+## 158. What is End-to-End Testing?
+
+**Answer:**  
+End-to-End Testing validates a complete business workflow from beginning to end across all relevant components and integrations.
+
+---
+
+## 159. What is Acceptance Testing?
+
+**Answer:**  
+Acceptance Testing verifies whether the software meets business and user requirements and is acceptable for use.
+
+---
+
+## 160. What is Regression Testing?
+
+**Answer:**  
+Regression Testing verifies that existing functionality continues to work correctly after changes, enhancements, or defect fixes.
+
+---
+
+# ⭐ Important Interview Follow-Ups
+
+Be prepared for these questions as well:
+
+- Smoke Testing vs Sanity Testing
+- Regression Testing vs Retesting
+- Severity vs Priority
+- Test Scenario vs Test Case
+- Verification vs Validation
+- SDLC vs STLC
+- Functional vs Non-Functional Testing
+- Manual vs Automation Testing
+- Static vs Dynamic Testing
+- Positive vs Negative Testing
+- Black Box vs White Box Testing
+- QA vs QC
+- Defect vs Error vs Failure
+- Test Plan vs Test Strategy
+- Build vs Release
+- Risk vs Issue
+- Test Case vs Test Script
+- Test Scenario vs Test Condition
+- Severity vs Priority with examples
+- How would you test a Login Page?
+- How would you test an E-commerce application?
+- How would you test a Payment Page?
+- What would you do if a critical defect is found before release?
+- What would you do if a developer rejects your defect?
+- What would you do if you have very little time for testing?
+- What would you do if the build is unstable?
+- What would you do if a requirement is unclear?
+
+---
