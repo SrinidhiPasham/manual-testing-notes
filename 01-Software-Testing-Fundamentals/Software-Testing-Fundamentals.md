@@ -89,240 +89,110 @@ Black box testing is about testing what software does i.e., the tester focuses o
 **Answer:**  
 White-box testing is about testing how software does it i.e., the tester has full access to the internal workings of the application including code, algorithm, logic. The purpose is to ensure that all operations are working as intended.
 ---
-## 21. What is Grey Box Testing?
+## 17. What is Grey Box Testing?
 **Answer:**  
-Grey-box testing combines aspects of black-box and white-box testing. The tester has partial knowledge of the application's internal architecture or implementation.
-
+Grey Box Testing is a testing technique where the tester has partial knowledge of the application's internal structure or implementation. It combines the approach of Black Box and White Box Testing.
 ---
-
-## 22. Black Box vs White Box vs Grey Box Testing?
-
-**Answer:**
-
-| Testing Type | Internal Knowledge |
-|---|---|
-| Black Box | No knowledge |
-| White Box | Full knowledge |
-| Grey Box | Partial knowledge |
-
----
-
-## 23. What is Static Testing?
-
+## 18. What is Static Testing?
 **Answer:**  
-Static Testing is performed without executing the software. It involves reviewing and analyzing work products to identify defects early.
-
-Examples include requirement reviews, walkthroughs, inspections, and document reviews.
-
----
-
-## 24. What is Dynamic Testing?
-
+Static Testing is a type of testing performed without executing the software.It is verifying any software documentation like software requirement specification, design documents, user stories. 
+## 19. What is Dynamic Testing?
 **Answer:**  
-Dynamic Testing involves executing the software and evaluating its actual behavior against expected results.
-
+Dynamic testing is when you launch the application and you verify that the functionalities that are being build are actually inline with requirements. It is known as Dynamic testing.
 ---
-
-## 25. Static Testing vs Dynamic Testing?
-
+## 20. What is Functional Testing?
 **Answer:**  
-Static Testing is performed without executing the software, while Dynamic Testing involves executing the software and evaluating its behavior.
-
+Functional Testing is a type of black box technique that verifies whether the system behaves as expected according to the requirements. It tests specific actions and outputs to confirm that functionalities work correctly.
 ---
-
-## 26. What is Functional Testing?
-
+## 21. What is Non-Functional Testing?
 **Answer:**  
-Functional Testing verifies whether the application's features and functions work according to specified requirements.
-
+Non functional testing checks qualities such as performance, security, usability, accessability and compatability.
 ---
-
-## 27. What is Non-Functional Testing?
-
+## 22. What is Positive Testing?
 **Answer:**  
-Non-Functional Testing evaluates characteristics such as performance, usability, security, reliability, scalability, accessibility, and compatibility.
-
+Positive Testing means testing the application with valid inputs to verify that it works as expected.
+Example: For a login page, I enter a valid username and valid password and verify that I can log in successfully.
 ---
-
-## 28. Functional vs Non-Functional Testing?
-
+## 23. What is Negative Testing?
 **Answer:**  
-Functional Testing verifies what the system does, while Non-Functional Testing verifies how well the system performs.
-
+Negative Testing means testing the application with invalid or unexpected inputs to verify that it handles them correctly.
+Example: For a login page, I enter an incorrect password and verify that the application displays the appropriate error message.
 ---
-
-## 29. What is Positive Testing?
-
+## 24. What is End-to-End Testing?
 **Answer:**  
-Positive Testing verifies that the application works correctly when valid inputs and expected actions are provided.
-
+End-to-End Testing verifies the complete business flow of an application from start to finish to ensure that all components and integrations work together correctly.
 ---
-
-## 30. What is Negative Testing?
-
+## 25. What is Integration Testing?
 **Answer:**  
-Negative Testing verifies how the application behaves when invalid, unexpected, or incorrect inputs are provided.
-
+Integration Testing is testing two or more modules or components together to verify that they communicate and work correctly with each other.
 ---
-
-## 31. Positive vs Negative Testing?
-
+## 25. What is System Testing?
 **Answer:**  
-Positive Testing uses valid and expected inputs, while Negative Testing uses invalid, unexpected, or incorrect inputs to verify how the application handles them.
-
+System Testing tests the entire system as a whole to verify its overall behavior and interaction between different components.
 ---
-
-## 32. What is End-to-End Testing?
-
+## 26. What is UAT?
 **Answer:**  
-End-to-End Testing validates a complete business workflow from beginning to end across all relevant components and integrations.
-
+UAT stands for User Acceptance Testing. It is the final testing phase where end users verify if the software meets business requirements before release. It ensures the system works as expected in real world scenarios and ensures readiness for production.
 ---
-
-## 33. What is Integration Testing?
-
+## 27. What is Exploratory Testing?
 **Answer:**  
-Integration Testing verifies whether two or more modules, components, services, or systems communicate and work correctly together.
-
----
-
-## 34. What is System Testing?
-
+Exploratory Testing is a type of software testing where testers actively explore the application to find the defects without predefined testcases. We use it
+-when you need fast feedback
+-when the application is complex
+-during early stages of testing
+-when dealing with tight deadlines
+## 28. What is Ad-hoc Testing?
 **Answer:**  
-System Testing validates the complete integrated application against functional and business requirements.
-
+Ad-hoc Testing is completely unstructured, random form of testing with no specific goals.
 ---
-
-## 35. What is UAT?
-
+## 29. What is Risk-Based Testing?
 **Answer:**  
-UAT stands for User Acceptance Testing. It verifies whether the application satisfies business requirements and is acceptable to the intended users or business stakeholders.
-
+Risk-Based Testing prioritizes testcases based on risk factors, such as likelihood of defects and their impact on business.
 ---
-
-## 36. What is Exploratory Testing?
-
+## 30. What is Test Coverage?
 **Answer:**  
-Exploratory Testing is a testing approach where test design, execution, and learning occur simultaneously. Testers explore the application based on requirements, experience, observations, and risks rather than relying only on predefined test cases.
-
+Test Coverage is a measure of how much of the application or requirements are covered by our testing. It helps us identify whether any important functionality or requirement is not tested.
 ---
-
-## 37. What is Ad-hoc Testing?
-
+## 31. What is a Test Plan?
 **Answer:**  
-Ad-hoc Testing is informal testing performed without predefined detailed test cases, usually to quickly identify unexpected defects.
-
+A Test Plan is a document outlining the overall testing approach, objectives, scope and schedule.
 ---
-
-## 38. What is Risk-Based Testing?
-
+## 32. What are Entry Criteria?
 **Answer:**  
-Risk-Based Testing is an approach where testing is prioritized based on the probability and business impact of potential failures.
-
----
-
-## 39. What is Test Coverage?
-
+Entry Criteria are the conditions that must be met before we can start testing.
+## 33. What are Exit Criteria?
 **Answer:**  
-Test Coverage measures how adequately the application or requirements are covered by the defined testing activities.
-
+Exit Criteria are the conditions that must be met before we can complete or stop testing.
 ---
-
-## 40. What is a Test Plan?
-
+## 34. What is a Test Environment?
 **Answer:**  
-A Test Plan is a document that defines the testing scope, objectives, approach, resources, schedule, environment, risks, dependencies, and entry and exit criteria.
-
+A Test Environment is the setup required to test an application, including hardware, software, database, network, tools, and test data.
 ---
-
-## 41. What are Entry Criteria?
-
+## 35. What is Test Data?
 **Answer:**  
-Entry Criteria are the conditions that must be satisfied before testing can begin.
-
-Examples include:
-
-- Requirements are available.
-- Build is available.
-- Test environment is ready.
-- Test data is available.
-
+Test Data is the data used to execute test cases and verify whether the application behaves as expected.
 ---
-
-## 42. What are Exit Criteria?
-
+## 36. What is a Defect?
 **Answer:**  
-Exit Criteria define the conditions that must be satisfied before testing can be considered complete.
-
-Examples include:
-
-- Planned test cases executed.
-- Critical defects resolved or accepted.
-- Required regression completed.
-- Required test coverage achieved.
-- Test summary completed.
-
+A defect is a flaw in the software that causes the actual result to differ from the expected result.
 ---
-
-## 43. What is a Test Environment?
-
+## 37. What is an Error?
 **Answer:**  
-A Test Environment is the combination of hardware, software, applications, databases, network configurations, tools, and test data required to execute tests.
-
+An error is a human mistake made during software development activities such as requirements, design, coding, or configuration.
 ---
-
-## 44. What is Test Data?
-
+## 38. What is a Failure?
 **Answer:**  
-Test Data is the data used to execute test cases and verify application behavior under different conditions.
-
+A failure occurs when the software executes and produces an incorrect or unexpected result.
 ---
-
-## 45. What is a Defect?
-
+## 39. When should testing start?
 **Answer:**  
-A Defect is a flaw or deviation in the software that causes the actual behavior to differ from the expected behavior or specified requirement.
-
+Testing should start as early as possible in the SDLC, ideally from the requirement phase. Early testing helps identify defects and requirement issues before they become expensive to fix.
 ---
-
-## 46. What is an Error?
-
+## 40. What is Shift-Left Testing?
 **Answer:**  
-An Error is a human mistake made during activities such as requirement analysis, design, coding, or configuration that may lead to a defect.
-
+Shift-Left Testing means moving testing activities earlier in the SDLC so that defects and risks can be identified and fixed early.
 ---
 
-## 47. What is a Failure?
-
-**Answer:**  
-A Failure occurs when the software executes and produces an incorrect or unexpected result due to a defect.
-
----
-
-## 48. Explain Error, Defect, and Failure.
-
-**Answer:**  
-A human Error can introduce a Defect into the software, and when that defect is executed, it can result in a Failure.
-
-**Error → Defect → Failure**
-
----
-
-## 49. When should testing start?
-
-**Answer:**  
-Testing should start as early as possible in the SDLC, ideally during the requirement phase. Early testing helps identify ambiguous requirements, missing acceptance criteria, and potential risks before they become expensive to fix.
-
----
-
-## 50. What is Shift-Left Testing?
-
-**Answer:**  
-Shift-Left Testing means moving testing and quality activities earlier in the software development lifecycle so that defects and risks can be identified earlier.
-
----
-
-# Testing Process and Planning
 
 ## 51. What is a Test Scenario?
 
