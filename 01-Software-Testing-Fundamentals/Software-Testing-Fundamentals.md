@@ -192,295 +192,129 @@ Testing should start as early as possible in the SDLC, ideally from the requirem
 **Answer:**  
 Shift-Left Testing means moving testing activities earlier in the SDLC so that defects and risks can be identified and fixed early.
 ---
-
-
-## 51. What is a Test Scenario?
-
+## 41. What is a Test Scenario?
 **Answer:**  
-A Test Scenario is a high-level condition or functionality that needs to be tested.
-
+A Test Scenario is a high-level condition or functionality that needs to be tested. It describes what we need to test.
 ---
-
-## 52. What is a Test Case?
-
+## 42. What is a Test Case?
 **Answer:**  
-A Test Case is a documented set of preconditions, test steps, test data, expected results, and other details used to verify a specific functionality.
-
+A Test Case is a set of steps, test data, preconditions, and expected results used to verify a specific functionality. It describes how we test it.
 ---
-
-## 53. Test Scenario vs Test Case?
-
+## 43. What are the components of a Test Case?
 **Answer:**  
-A Test Scenario is a high-level description of what needs to be tested, while a Test Case provides detailed steps and expected results for testing that scenario.
-
+A test case typically contains a Test Case ID, test case title, preconditions, test data, test steps, expected result, actual result, and execution status. We may also include comments or test evidence.
 ---
-
-## 54. What are the components of a Test Case?
-
-**Answer:**  
-A typical Test Case contains:
-
-- Test Case ID
-- Test Case Title
-- Preconditions
-- Test Data
-- Test Steps
-- Expected Result
-- Actual Result
-- Status
-- Comments or Evidence
-
----
-
-## 55. What is a Test Suite?
-
+## 44. What is a Test Suite?
 **Answer:**  
 A Test Suite is a collection of related test cases grouped together for execution.
-
 ---
-
-## 56. What is a Test Script?
-
+## 45. What is a Test Script?
 **Answer:**  
-A Test Script is a sequence of instructions or steps used to execute a test, either manually or through automation.
-
+A Test Script is a sequence of instructions or steps used to execute a test. It can be written for manual execution or automation.
 ---
-
-## 57. What is Test Data?
-
+## 46. What is Test Data?
 **Answer:**  
-Test Data is the input data required to execute test cases and verify different application behaviors.
-
+Test Data is the input data used to execute test cases and verify different application behaviors.
 ---
-
-## 58. What is a Requirement Traceability Matrix?
-
+## 47. What is a Requirement Traceability Matrix?
 **Answer:**  
-A Requirement Traceability Matrix, or RTM, is a document that maps requirements to test scenarios and test cases to ensure that requirements are adequately covered by testing.
-
+A Requirement Traceability Matrix maps all requirements with the testcases. By using the document one can verify testcases cover all functionality of the application as per requirements of customer.
 ---
-
-## 59. What is Test Execution?
-
+## 48. What is Test Execution?
 **Answer:**  
-Test Execution is the process of running test cases, comparing actual results with expected results, and recording the test status.
-
+Test Execution is the process of running the test cases, comparing the actual results with the expected results, and recording the test status as Pass, Fail, or Blocked.
 ---
-
-## 60. What are the possible Test Case statuses?
-
+## 49. What are the possible Test Case statuses?
 **Answer:**  
-Common Test Case statuses include:
-
-- Pass
-- Fail
-- Blocked
-- Not Run
-- Not Applicable
-
+The common test case statuses are Pass, Fail, Blocked, Not Run, and Not Applicable.
 ---
-
-## 61. What is a Test Condition?
-
+## 50. What is a Test Condition?
 **Answer:**  
-A Test Condition is a testable aspect, requirement, or behavior of the application that needs to be verified.
-
+A Test Condition is a specific requirement, functionality, rule, or behavior that needs to be verified through testing.
 ---
-
-## 62. What is a Test Objective?
-
+## 51. What is a Test Objective?
 **Answer:**  
-A Test Objective defines what the testing activity is intended to verify or achieve.
-
+A Test Objective defines what we want to achieve or verify through testing.
 ---
-
-## 63. What is a Test Strategy?
-
+## 52. What is a Test Strategy?
 **Answer:**  
-A Test Strategy is a high-level document or approach that defines how testing will be performed, including testing objectives, levels, types, resources, tools, risks, and approach.
-
+A Test Strategy is a high-level document that defines the testing approach and tools.
 ---
-
-## 64. Test Plan vs Test Strategy?
-
-**Answer:**  
-A Test Strategy defines the overall testing approach, while a Test Plan defines the specific testing activities, scope, schedule, resources, responsibilities, and execution details for a project.
-
----
-
 # Defect Management
-
-## 65. What is Defect Life Cycle?
-
+## 53. What is Defect Life Cycle?
 **Answer:**  
-The Defect Life Cycle describes the different states a defect passes through from identification to closure.
-
-A typical flow is:
-
-New → Assigned → Open → Fixed → Retest → Verified → Closed
-
-A defect may also be Reopened if the issue still exists after the fix.
-
+It is a sequence of stages a bug goes through from a moment it is discovered to when it is resolved. The stages are
+New → A tester logs a bug in Jira
+Assigned → The bug is assigned to developer
+Open → InProgress -> Fixed → The developer submits the fix
+Retest → QA team tests
+Verified → Closed
 ---
-
-## 66. What is Severity?
-
+# 54. What is Severity?
 **Answer:**  
-Severity indicates the technical impact or seriousness of a defect on the application.
-
+Severity is how bad is the defect technically. It refers to the impact or seriousness of the defect on systems functionality.
 ---
-
-## 67. What is Priority?
-
+## 55. What is Priority?
 **Answer:**  
-Priority indicates how urgently a defect should be fixed based on business importance.
-
+Priority is how urgently should the defect be fixed. It considers how important it is to resolve the issue in the context of project. business goals and customer impact.
 ---
-
-## 68. Severity vs Priority?
-
-**Answer:**
-
-| Severity | Priority |
-|---|---|
-| Indicates technical/business impact of the defect | Indicates urgency of fixing the defect |
-| Usually determined based on impact | Usually influenced by business needs |
-| Focuses on seriousness | Focuses on fixing order |
-
----
-
-## 69. What is a Critical Defect?
-
+## 56. What is a Critical Defect?
 **Answer:**  
-A Critical Defect is a defect that causes severe impact, such as application failure, data loss, security issues, or inability to perform a critical business function.
-
+A Critical Defect is a defect that has a very high impact on the application, such as application failure, data loss, security issues, or failure of a critical business function
 ---
-
-## 70. What is a Blocker Defect?
-
+## 57. What is a Blocker Defect?
 **Answer:**  
-A Blocker Defect prevents further testing or prevents users from performing a critical function.
-
+A Blocker Defect is a defect that prevents testing from continuing or blocks a critical functionality.
 ---
-
-## 71. What is a Defect Report?
-
+## 58. What is a Defect Report?
 **Answer:**  
-A Defect Report is a documented record of an identified issue containing information such as title, description, steps to reproduce, expected result, actual result, severity, priority, environment, and evidence.
-
+A Defect Report is a record created by a tester to document an issue, including its steps, expected result, actual result, severity, and priority.
 ---
-
-## 72. What should a good defect report contain?
-
+## 59. What should a good defect report contain?
 **Answer:**  
-A good defect report should contain:
-
-- Defect ID
-- Clear title
-- Description
-- Preconditions
-- Steps to reproduce
-- Test data
-- Expected result
-- Actual result
-- Severity
-- Priority
-- Environment
-- Screenshots or logs
-- Reproducibility
-
+It should contain a clear title, steps to reproduce, expected and actual results, severity, priority, environment, and evidence.
 ---
-
-## 73. What is Retesting?
-
+## 60. What is Retesting?
 **Answer:**  
-Retesting is performed to verify that a specific defect has been fixed successfully.
-
+Retesting ensures that specific bug fix works as expected.
 ---
-
-## 74. What is Regression Testing?
-
+## 61. What is Regression Testing?
 **Answer:**  
-Regression Testing verifies that existing functionality continues to work after changes, enhancements, or defect fixes are made to the application.
-
+Regression Testing is done to make sure that new code changes haven't impacted existing functionalities.
 ---
-
-## 75. Retesting vs Regression Testing?
-
+## 62. What is Defect Leakage?
 **Answer:**  
-Retesting verifies whether a specific defect has been fixed, while Regression Testing verifies that existing functionality has not been negatively affected by recent changes.
-
+Defect Leakage occurs when a defect is missed during testing and is found in a later environment or production.
 ---
-
-## 76. What is Defect Leakage?
-
+## 63. What is Defect Rejection?
 **Answer:**  
-Defect Leakage occurs when a defect is missed during testing and is discovered after the software is released to a later environment or production.
-
+Defect Rejection occurs when a reported issue is determined not to be a valid defect.
 ---
-
-## 77. What is Defect Rejection?
-
+## 64. What is a Duplicate Defect?
 **Answer:**  
-Defect Rejection occurs when a reported defect is determined to be invalid, not reproducible, expected behavior, a duplicate, or otherwise not a valid defect.
-
+A Duplicate Defect is an issue that has already been reported in another defect.
 ---
-
-## 78. What is a Duplicate Defect?
-
+## 65. What is a Deferred Defect?
 **Answer:**  
-A Duplicate Defect is a defect that has already been reported in another defect record.
-
+A Deferred Defect is a valid defect whose fix is postponed to a future release.
 ---
-
-## 79. What is a Deferred Defect?
-
-**Answer:**  
-A Deferred Defect is a valid defect whose fix is intentionally postponed to a future release based on priority, risk, resources, or business decisions.
-
----
-
 # Common Testing Types
-
-## 80. What is Smoke Testing?
-
+## 66. What is Smoke Testing?
 **Answer:**  
-Smoke Testing is a high-level test performed on a new build to verify that the critical functionalities are working and the build is stable enough for detailed testing.
-
+Smoke Testing is the preliminary testing performed to ensure that the basic functions of an application are working as expected after a new release.
 ---
-
-## 81. What is Sanity Testing?
-
+## 67. What is Sanity Testing?
 **Answer:**  
-Sanity Testing is focused testing performed after minor changes or fixes to verify that the affected functionality and related areas are working correctly.
-
+Sanity Testing is more focused and is performed after receiving software build with minor changes. The goal is to check whether specific functionality is working correctly.
 ---
-
-## 82. Smoke Testing vs Sanity Testing?
-
+## 68. What is Regression Testing?
 **Answer:**  
-Smoke Testing checks the overall stability of a build at a high level, while Sanity Testing focuses on specific functionality or related areas after changes or fixes.
-
+It is a testing to ensure that new code changes haven't unintentionally broken existing functionality. If a new feature is added to a website, Regression testing would involve rerunning tests on existing features to ensure they still function properly and haven't been impacted by the new code.
 ---
-
-## 83. What is Regression Testing?
-
-**Answer:**  
-Regression Testing verifies that existing functionality has not been impacted by changes made to the application.
-
----
-
-## 84. What is Retesting?
+## 69. What is Compatibility Testing?
 
 **Answer:**  
-Retesting verifies that a previously failed test case or reported defect now passes after the issue has been fixed.
-
----
-
-## 85. What is Compatibility Testing?
-
-**Answer:**  
-Compatibility Testing verifies that the application works correctly across different browsers, operating systems, devices, screen sizes, networks, and other supported environments.
+Compatibility Testing 
 
 ---
 
