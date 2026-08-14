@@ -312,68 +312,34 @@ Sanity Testing is more focused and is performed after receiving software build w
 It is a testing to ensure that new code changes haven't unintentionally broken existing functionality. If a new feature is added to a website, Regression testing would involve rerunning tests on existing features to ensure they still function properly and haven't been impacted by the new code.
 ---
 ## 69. What is Compatibility Testing?
-
 **Answer:**  
-Compatibility Testing 
-
+Compatibility Testing ensures software works correctly across different O.S, browsers, devices, networks and hardware. It ensures consistent user experience, identifies UI/functional issues.
 ---
-
-## 86. What is Cross-Browser Testing?
-
+## 70. What is Cross-Browser Testing?
 **Answer:**  
-Cross-Browser Testing verifies that a web application behaves correctly across supported browsers such as Chrome, Edge, Firefox, and Safari.
-
+Cross-Browser Testing checks whether a web application works correctly across different browsers like Chrome, Edge, Firefox, and Safari.
 ---
-
-## 87. What is Usability Testing?
-
+## 71. What is Usability Testing?
 **Answer:**  
-Usability Testing evaluates how easy, understandable, efficient, and user-friendly the application is for its intended users.
-
+Usability Testing checks whether the application is easy to understand and use.
 ---
-
-## 88. What is Accessibility Testing?
-
+## 72. What is Accessibility Testing?
 **Answer:**  
-Accessibility Testing verifies that an application can be effectively used by people with different abilities and complies with applicable accessibility requirements.
-
+Accessibility Testing checks whether the application can be used by people with different abilities.
 ---
-
-## 89. What is Performance Testing?
-
+## 73. What is Performance Testing?
 **Answer:**  
-Performance Testing evaluates how an application behaves in terms of response time, stability, scalability, and resource usage under expected or varying workloads.
-
+Performance Testing checks how the application performs in terms of speed, stability, and response time under different workloads.
 ---
-
-## 90. What is Security Testing?
-
+## 74. What is Security Testing?
 **Answer:**  
-Security Testing evaluates whether the application protects data and functionality against unauthorized access, vulnerabilities, and other security threats.
-
+Security Testing checks whether the application and its data are protected from unauthorized access and security vulnerabilities.
 ---
-
-## 91. What is Usability Testing?
-
-**Answer:**  
-Usability Testing verifies whether users can understand and use the application easily, efficiently, and effectively.
-
----
-
-## 92. What is Compatibility Testing?
-
-**Answer:**  
-Compatibility Testing verifies that the application works correctly across supported hardware, software, browsers, operating systems, devices, and network environments.
-
----
-
 # Test Case Design Techniques
-
-## 93. What is Boundary Value Analysis?
-
+## 75. What is Boundary Value Analysis?
 **Answer:**  
-Boundary Value Analysis is a test design technique that focuses on values at and around the boundaries of valid input ranges because defects frequently occur near boundaries.
-
+Boundary Value Analysis is a black box technique that focuses on testing the boundaries of input values, as errors are often found in these boundaries.
+Eg: If an input field accepts values 1 to 100, test with Valid: 1, 100, Invalid:0,101
 ---
 
 ## 94. What is Equivalence Partitioning?
